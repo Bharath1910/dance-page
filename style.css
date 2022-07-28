@@ -67,7 +67,7 @@ main {
 }
 
 .content-top h1 {
-    flex: 5;
+    flex: 65;
     font-size: 100px;
 
     font-family: "Kumar One Outline";
@@ -75,19 +75,19 @@ main {
 }
 
 .content-top h1 span {
-    margin-left: 90px;
+    margin-left: 170px;
 }
 
 
 
 .content-top p {
-    flex: 4;
+    flex: 30;
     font-size: 30px;
     align-self: flex-end;
 }
 
 .socials {
-    flex: 1;
+    flex: 5;
 }
 
 .socials ul {
@@ -99,4 +99,62 @@ main {
     list-style: none;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+
+
+.content-mid {
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-mid a {
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px 60px;
+
+    font-weight: 600;
+}
+
+.content-bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-left {
+    display: flex;
+}
+
+.vertical-line {
+    border-right: 1px solid #333333;
+    height: 250px;
+
+    position: relative;
+    right: 17px;
+    top: 16px;
+
+}
+
+.bottom-left ul {
+    font-size: 20px;
+}
+
+.bottom-middle {
+    width: 300px;
+}
+
+.bottom-middle p:first-child {
+    font-size: 80px;
+    margin-top: -80px;
+
+}
+
+.bottom-middle img {
+    width: 300px;
+}
+
+.bottom-right {
+    align-self: center;
 }
