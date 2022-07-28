@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&family=Poppins:wght@300;400;500;600;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+
+    font-family: "Poppins";
+    color: #333333;
 }
 
 nav {
@@ -50,4 +55,48 @@ main {
     top: 0;
     left: 0;
     z-index: -1;
+}
+
+.content {
+    width: 65vw;
+}
+
+.content-top {
+    display: flex;
+    margin: 0 100px;
+}
+
+.content-top h1 {
+    flex: 5;
+    font-size: 100px;
+
+    font-family: "Kumar One Outline";
+    line-height: 1.2em;
+}
+
+.content-top h1 span {
+    margin-left: 90px;
+}
+
+
+
+.content-top p {
+    flex: 4;
+    font-size: 30px;
+    align-self: flex-end;
+}
+
+.socials {
+    flex: 1;
+}
+
+.socials ul {
+    display: flex;
+    flex-direction: column;
+    height: 225px;
+    font-size: 30px;
+
+    list-style: none;
+    justify-content: space-between;
+    align-items: flex-end;
 }
